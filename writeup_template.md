@@ -27,6 +27,10 @@ The goals / steps of this project are the following:
 [image11]: ./Softmax_Figs/Road%20work.png "Traffic Sign 3"
 [image12]: ./Softmax_Figs/Speed%20limit%20(30km%20per%20h).png "Traffic Sign 4"
 [image10]: ./Softmax_Figs/Turn%20right%20ahead.png "Traffic Sign 5"
+[image14]: ./Visualization/activation1.png "act1"
+[image15]: ./Visualization/activation2.png "act2"
+[image16]: ./Visualization/activation3.png "act3"
+[image17]: ./Visualization/activation4.png "act4"
 
 
 ## Rubric Points
@@ -328,5 +332,11 @@ For the fifth image, the model is very sure that this is a 'Go straight or right
 ![alt text][image13]
 
 Overall I am very satisfied with the results of my model. I am sure there are many shortcomings that I have not yet explored but for the project at hand I believe it to be a good classifier. I did notice that once I visualized the featuremaps, that I may have 'zoomed' in too much with the layers of convolution. If I did this again, I would probably choose 'same' padding to maintain image size for the first few layers and let the pooling layers handle the downsizing. 
+
+![alt text][image14]
+![alt text][image15]
+![alt text][image16]
+![alt text][image17]
+
 
 Once again, I applaud the creators of this project. I can see the immense effort that went into everything from the notebook to this template for the report. Thank you for making learning easier and fun!
